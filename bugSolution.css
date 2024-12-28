@@ -1,0 +1,1 @@
+The issue was resolved by ensuring that all units within the `calc()` function are consistent.  The original calculation `calc(100% - 10px)` is corrected to `calc(100% - 10px)` ensuring that both parts of the calculation have explicit units. Adding units to both parts of the calc function makes the result as expected.
